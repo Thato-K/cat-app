@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cat {
+    background-color: blueviolet;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+    border: 3px solid white;
+}
+
+
+@media(min-width: 960px) {
+    .cats {
+        display: flex;
+    }
+}
+
+
+fieldset {
+    margin: 1em;
+    border: 0em;
+}
+
+button {
+    padding: 1em;
+    border: 6px;
+    border-radius: 1em;
+}
+
+input {
+    padding: 1em;
+}
